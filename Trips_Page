@@ -1,0 +1,23 @@
+<!DOCTYPE html><html>
+    <link href="./Style_sheet_2" rel="stylesheet">
+
+<head>
+    <h1  id="title"><a href="./index.html">ASHLEY ABROAD</a></h1>
+    <h2 class="nav">
+        <a href="./Trips_Page"><span>Trips</span></a>
+        <a href="./About_Page">About</a>
+        <a href="./Contact_Page">Get In Touch</a>
+    </h2>
+</head>
+
+<body>
+    <main>
+      <p>Content pending</p>
+    </main>
+
+    <footer>
+        <h5 class="tag">Created by Ashley Robinson</h5>
+    </footer>
+
+</body>
+</html>
