@@ -71,7 +71,6 @@ main h2{
     max-block-size: 500px;
     border-width: 5px;
     border-radius: 20px;
-    
 }
 
 .latest_trip{
@@ -83,6 +82,7 @@ main h2{
     margin-top: 200px;
     z-index: 1;
 }
+
 #recent_trip_thumbnail{
     display: inline-flex;
     text-align: center;
