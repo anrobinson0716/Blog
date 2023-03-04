@@ -2,18 +2,27 @@
 <html lang="en">
     <link href="./Style_sheet_2.css" rel="stylesheet">
     <head>
-        <h1  id="title"><a href="./index.html">ASHLEY ABROAD</a></h1>
-        <h2 class="nav">
-            <a class="navlink" href="./Trips_Page.html">Trips</a>
-            <a class="navlink" href="./About_Page.html">About</a>
-            <a class="navlink" href="./Contact_Page.html">Get In Touch</a>
-        </h2>
+        <header>
+        <h1  class="title"><a href="./index.html">ASHLEY ABROAD</a></h1>
+        <ul class="nav">
+            <li><a class="navlink" href="./Trips_Page.html">Trips</a></li>
+            <li><a class="navlink" href="./About_Page.html">About</a></li>
+            <li><a class="navlink" href="./Contact_Page.html">Contact</a></li>
+        </ul>
+        </header>
     </head>
 
     <body>
         <main>
             <img id="homepicture" src="./Media/IMG_0363.jpeg">
-            <h2 class="welcome">Welcome to my blog!</h2>
+            <div class="greeting">
+                <h2 id="welcome">Welcome! This blog is where I record my travels and trip photos. It's also where I test out some coding projects! Explore to find out about what I'm up to, where I've been, and where I'm going.</h2>
+				<h2 id="pitch">Like my site? I can make you one too! Contact me through the <a href="./Contact_Page.html"><emphasis>contact page</emphasis></a></h2>
+            </div>
+            <div class="latest_trip">
+                <h2>Read about my latest trip!</h2>
+                <img id="recent_trip_thumbnail" src="./Media/IMG_5798.jpeg">
+            </div>
         </main>
 
         <footer>

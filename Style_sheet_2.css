@@ -1,59 +1,6 @@
-#title{
-    text-align: center;
+*{
     font-family: Optima;
     font-weight: 100;
-    background-color: rgba(143, 183, 154, 0.919);
-    padding: 2%;
-    
-}
-
-.nav{
-    margin-top: 0px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 2px;
-    border-top: 1px dashed;
-    border-color: black;
-    text-align: center;
-}
-.nav a{
-    text-align: center;
-    font-family: Optima;
-    font-weight: 85;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 2px;
-    border: 1px solid;
-    border-radius: 10px;
-    border-color: rgba(143, 183, 154, 0.919);
-    background-color:  rgba(143, 183, 154, 0.919);
-}
-
-.nav span{
-    margin: 10px 10px;
-    
-}
-
-#homepicture{
-    margin: 5px auto;
-    border: 5%;
-    box-sizing: border-box;
-    max-block-size: 500px;
-    border-width: 5px;
-    border-radius: 5px;
-}
-
-.tag{
-    text-align: center;
-    font-size: 10px;
-    background-color: rgba(143, 183, 154, 0.919);
-    padding: 5px;
-    border-radius: 10px;
-    border-width: 2%;
-
 }
 
 a:link, a:visited{
@@ -61,3 +8,105 @@ a:link, a:visited{
     color: black;
   }
 
+header{
+    text-align: center;
+    background-color: rgba(143, 183, 154, 0.919);
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    z-index: 10;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    font-family: Optima;
+    font-weight: 100;
+}
+
+.nav{
+    display:inline-block;
+    height: 25px;
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+.nav li{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    width: 100px;
+    font-style: bold;
+    font-weight: 200;
+}
+
+
+main{
+    position: relative;
+    top: 200px;
+    margin: auto 10%;
+}
+
+main h2{
+    text-align: center;
+}
+
+.greeting{
+    line-height: 55px;
+    background-color: rgba(244, 244, 244, 0.859);
+    font-style: italic;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 440px;    
+    position: relative;
+    margin: auto 50px;
+    z-index: 1;
+}
+
+#homepicture{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    border: 5%;
+    max-block-size: 500px;
+    border-width: 5px;
+    border-radius: 20px;
+    
+}
+
+.latest_trip{
+    top: 25%;
+    text-align: center;
+    display: inline;
+    max-width: 400px;    
+    position: relative;
+    margin-top: 200px;
+    z-index: 1;
+}
+#recent_trip_thumbnail{
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    max-block-size: 500px;
+    left: 18%;
+}
+
+footer{
+    box-sizing: border-box;
+    position: fixed;
+    top: 94%;
+    width: 100%;
+    margin: 5px 0px;
+    z-index: 10;
+    left: 0;
+}
+
+.tag{
+    text-align: center;
+    top: 5%
+    font-size: 10px;
+    background-color: rgba(143, 183, 154, 0.919);
+    border-width: 2%;
+    height: 25px;
+}
